@@ -1,0 +1,42 @@
+<HTML>
+<META CHARSET="utf-8">
+
+<HEAD>
+    <TITLE>Calculadora</TITLE>
+
+</HEAD>
+<link rel="stylesheet" type="text/css" href="CalculadoraCSS.css"/>
+<BODY>
+    <FONT CLASS=padrao1>
+    <form name="calcform" method="post" action="">
+        <label>Calculadora do pipoco</label>
+    </FONT>
+        <br>
+        <FONT CLASS=padrao2> 
+        <label for="v1">Digite o valor <b>1</b>:</label><BR>
+        <input type="text" name="v1" id="v1" />
+        <br>
+    </FONT>
+        <FONT CLASS=padrao2> 
+        <label for="v2">Digite o valor <b>2</b>:</label><BR>
+        <input type="text" name="v2" id="v2" />
+        <br>
+    </FONT>
+    <FONT CLASS=padrao3> 
+        <label for="opera">Selecione a operação:</label><BR>
+        <input type="text" name="opera" id="opera" />
+        <BR>
+        </FONT>
+        <input type="button" value="Calcular" class="botao" onClick="calcular(this.form)" />
+        <FONT CLASS=padrao4> 
+        <br>
+        <label> Resultado:</label><br>
+        <p id="result"></p>
+    </FONT>
+    </form>
+
+    <SCRIPT type="text/javascript" src="CalculadoraJava2.js"></SCRIPT>
+
+</BODY>
+
+</HTML>
